@@ -24,7 +24,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0.5" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="S3g-SY-pqb">
-                                <rect key="frame" x="129" y="392" width="45" height="21"/>
+                                <rect key="frame" x="129" y="392" width="36" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
@@ -44,13 +44,6 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0.5" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zQx-N6-4xX">
-                                <rect key="frame" x="116" y="480" width="45" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="SGc-hl-R5C">
                                 <rect key="frame" x="52" y="423" width="309" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -59,14 +52,14 @@
                                 </connections>
                             </slider>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0.5" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KUh-NR-icQ">
-                                <rect key="frame" x="104" y="303" width="45" height="21"/>
+                                <rect key="frame" x="104" y="302" width="36" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Rate" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xIl-4w-MhB">
-                                <rect key="frame" x="54" y="303" width="35" height="21"/>
+                                <rect key="frame" x="54" y="304" width="35" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
@@ -87,7 +80,7 @@
                                 </connections>
                             </slider>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TOn-bO-ua3">
-                                <rect key="frame" x="142.23809523809518" y="607.99999999999989" width="128.99999999999997" height="30"/>
+                                <rect key="frame" x="136" y="608" width="139" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Speak"/>
                                 <connections>
@@ -103,13 +96,27 @@
                                     <segment title="英語"/>
                                 </segments>
                             </segmentedControl>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Htg-Bk-vkp">
-                                <rect key="frame" x="171" y="646" width="73" height="30"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0.5" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zQx-N6-4xX">
+                                <rect key="frame" x="116" y="480" width="37" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="青菜貢"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="key in your love message here" clearsOnBeginEditing="YES" minimumFontSize="17" clearButtonMode="always" translatesAutoresizingMaskIntoConstraints="NO" id="WCi-fO-EBx">
+                                <rect key="frame" x="55.555555555555657" y="159.00000000000011" width="298.99999999999994" height="33.999999999999986"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.76078431369999999" green="0.84705882349999995" blue="0.72549019609999998" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" enablesReturnKeyAutomatically="YES"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4Gt-Eb-H6a">
+                                <rect key="frame" x="136" y="658" width="139" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="隨便講講"/>
                                 <connections>
-                                    <action selector="randomSpeech:" destination="BYZ-38-t0r" eventType="touchUpInside" id="5s8-VQ-c9D"/>
-                                    <action selector="speak:" destination="BYZ-38-t0r" eventType="touchUpInside" id="bpy-UZ-hFy"/>
+                                    <action selector="randomSpeech:" destination="BYZ-38-t0r" eventType="touchUpInside" id="TJo-Ao-cNk"/>
+                                    <action selector="speak:" destination="BYZ-38-t0r" eventType="touchUpInside" id="3Bf-zV-YSs"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -117,12 +124,13 @@
                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </view>
                     <connections>
-                        <outlet property="languageSelection" destination="VHk-T7-1OZ" id="XLm-mc-Khu"/>
+                        <outlet property="languageSelection" destination="VHk-T7-1OZ" id="u2G-4M-zTK"/>
+                        <outlet property="loveMessage" destination="WCi-fO-EBx" id="7TY-Aq-Zzn"/>
                         <outlet property="pitchLabel" destination="zQx-N6-4xX" id="NfZ-vC-q7f"/>
                         <outlet property="pitchSlider" destination="oBK-iE-KdL" id="4Vg-gl-Dyu"/>
                         <outlet property="rateLabel" destination="KUh-NR-icQ" id="hUa-em-vN6"/>
                         <outlet property="rateSlider" destination="Leo-6l-x0l" id="IXw-gK-ytz"/>
-                        <outlet property="speakButton" destination="TOn-bO-ua3" id="4le-Oj-B3b"/>
+                        <outlet property="speakButton" destination="TOn-bO-ua3" id="jcg-mx-UTP"/>
                         <outlet property="volumeLabel" destination="S3g-SY-pqb" id="jkd-0s-mLY"/>
                         <outlet property="volumeSlider" destination="SGc-hl-R5C" id="d0R-XG-PVv"/>
                     </connections>
